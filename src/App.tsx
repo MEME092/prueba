@@ -114,14 +114,10 @@ export default function App() {
       
       {/* Navbar Superior Limpio y Profesional */}
       <Navbar
-        currentView={currentView}
         onNavigateHome={() => {
           setSelectedCategory('all');
           setCurrentView('home');
         }}
-        onSelectCategory={handleCategoryClick}
-        selectedCategory={selectedCategory}
-        onNavigateLegal={handleOpenLegal}
       />
 
       {/* Contenido Principal según la vista activa */}
