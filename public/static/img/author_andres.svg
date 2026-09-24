@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="author-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="100" fill="url(#author-grad)" />
+  <circle cx="100" cy="78" r="38" fill="#ffffff" opacity="0.95" />
+  <path d="M40 168 C40 128, 68 118, 100 118 C132 118, 160 128, 160 168 Z" fill="#ffffff" opacity="0.95" />
+  <!-- Verification Badge -->
+  <circle cx="148" cy="148" r="22" fill="#10b981" stroke="#ffffff" stroke-width="4" />
+  <path d="M140 148 L146 154 L157 142" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

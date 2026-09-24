@@ -1,0 +1,6 @@
+{
+  "name": "Tecnología para Gente Normal - Blog & Admin CMS",
+  "description": "Blog tecnológico de alta calidad optimizado para SEO, E-E-A-T y Google AdSense, con panel de administración y editor de artículos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

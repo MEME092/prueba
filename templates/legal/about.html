@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}Sobre el Autor y Metodología E-E-A-T - Tecnología para Gente Normal{% endblock %}
+{% block meta_description %}Conoce a Andrés Martínez, estudiante de Ingeniería de Sistemas en la Universidad de la Costa (CUC), autor y responsable técnico de Tecnología para Gente Normal.{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+  <div class="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200 shadow-sm space-y-8">
+    
+    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6 pb-6 border-b border-slate-200">
+      <img
+        src="/static/img/author_andres.svg"
+        alt="Andrés Martínez - Autor Verificado"
+        class="w-24 h-24 rounded-2xl shadow-md shrink-0 object-cover border border-slate-200"
+      />
+      <div>
+        <div class="flex items-center gap-2 mb-1">
+          <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900">Andrés Martínez</h1>
+          <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-indigo-100 text-indigo-700 border border-indigo-200">
+            Autor Verificado E-E-A-T
+          </span>
+        </div>
+        <p class="text-sm font-semibold text-slate-700 flex items-center gap-2">
+          <span>🎓</span> Estudiante de Ingeniería de Sistemas • Universidad de la Costa (CUC)
+        </p>
+        <p class="text-xs text-slate-500 flex items-center gap-1.5 mt-1">
+          <span>📍</span> Barranquilla, Atlántico – Colombia | ✉️ andresy1999f@gmail.com
+        </p>
+      </div>
+    </div>
+
+    <div class="prose prose-slate max-w-none text-sm text-slate-700 space-y-4">
+      <h2 class="text-xl font-bold text-slate-900">¿Quién está detrás de este blog?</h2>
+      <p class="leading-relaxed">
+        Hola, soy <strong>Andrés Martínez</strong>, estudiante de los últimos semestres del programa de Ingeniería de Sistemas en la <strong>Universidad de la Costa (CUC)</strong> en Barranquilla. Mi trayectoria académica y práctica se centra en el desarrollo de software con Python, interfaces modernas con el framework <strong>Flet</strong>, bases de datos relacionales SQLite y PostgreSQL, y optimización de sistemas operativos.
+      </p>
+
+      <h2 class="text-xl font-bold text-slate-900">Misión editorial de "Tecnología para Gente Normal"</h2>
+      <p class="leading-relaxed">
+        Muchas veces, cuando un estudiante, un profesional independiente o un ciudadano común intenta resolver un problema técnico —como tramitar el RUT en la DIAN, descargar antecedentes judiciales, optimizar Windows 11 o desinstalar bloatware en Android— se topa con guías desactualizadas, plagadas de enlaces engañosos o escritas en jerga incomprensible.
+      </p>
+      <p class="leading-relaxed">
+        Este portal tiene un único propósito: <strong>democratizar el conocimiento técnico de forma directa, honesta y sin rodeos</strong>, con guías exhaustivas probadas en hardware real.
+      </p>
+
+      <h2 class="text-xl font-bold text-slate-900">Protocolo de Verificación Técnica (E-E-A-T)</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 not-prose my-6">
+        <div class="p-4 bg-emerald-50/70 border border-emerald-200 rounded-2xl space-y-1">
+          <span class="font-bold text-xs text-emerald-800 flex items-center gap-1.5">
+            ✓ Pruebas en Hardware Físico Real
+          </span>
+          <p class="text-xs text-emerald-900 leading-relaxed">
+            No publicamos comandos sin antes ejecutarlos en computadores reales con Windows 11, distribuciones Linux o teléfonos Android con depuración USB habilitada.
+          </p>
+        </div>
+        <div class="p-4 bg-indigo-50/70 border border-indigo-200 rounded-2xl space-y-1">
+          <span class="font-bold text-xs text-indigo-800 flex items-center gap-1.5">
+            ✓ Cero Relleno Sintético
+          </span>
+          <p class="text-xs text-indigo-900 leading-relaxed">
+            Cada guía supera las 1.500 palabras de contenido sustantivo con soluciones a fallos reales, código verificado y capturas de pantalla originales.
+          </p>
+        </div>
+      </div>
+
+      <h2 class="text-xl font-bold text-slate-900">Contacto Académico y Profesional</h2>
+      <p class="leading-relaxed">
+        Para dudas técnicas sobre los tutoriales, correcciones o consultas de desarrollo de software, puedes contactarme directamente a través de <a href="mailto:andresy1999f@gmail.com" class="text-indigo-600 font-bold hover:underline">andresy1999f@gmail.com</a> o mediante nuestro <a href="/contacto" class="text-indigo-600 font-bold hover:underline">formulario de contacto</a>.
+      </p>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

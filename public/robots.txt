@@ -1,0 +1,14 @@
+# robots.txt para Tecnología para Gente Normal
+# Permitir indexación completa a Googlebot, Bingbot y AdSense Mediapartners
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Crawler de Google AdSense
+User-agent: Mediapartners-Google
+Allow: /
+
+# Sitemap oficial
+Sitemap: https://tecnologiaparagentenormal.com/sitemap.xml

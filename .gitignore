@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+coverage/
+*.db
+__pycache__/
+.venv/
+.DS_Store
+*.log
+.env*
+!.env.example

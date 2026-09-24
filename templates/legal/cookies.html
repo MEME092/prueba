@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Política de Cookies - Tecnología para Gente Normal{% endblock %}
+{% block meta_description %}Información detallada sobre el uso de cookies técnicas y analíticas en Tecnología para Gente Normal.{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+  <div class="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200 shadow-sm space-y-6">
+    <div class="pb-4 border-b border-slate-200">
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900">Política de Cookies</h1>
+      <p class="text-xs text-slate-500 mt-1">Transparencia técnica y cumplimiento normativo</p>
+    </div>
+
+    <div class="prose prose-slate max-w-none text-sm text-slate-700 space-y-4">
+      <p class="leading-relaxed">
+        Este sitio web utiliza cookies propias y de terceros para optimizar la navegación del usuario y almacenar preferencias de lectura.
+      </p>
+
+      <h2 class="text-lg font-bold text-slate-900">¿Qué es una Cookie?</h2>
+      <p class="leading-relaxed">
+        Una cookie es un pequeño archivo de texto que un sitio web almacena en el navegador de tu computadora o dispositivo móvil. Permite recordar acciones pasadas, como la aceptación del aviso legal o preferencias de visualización.
+      </p>
+
+      <h2 class="text-lg font-bold text-slate-900">Tipos de Cookies Utilizadas en este Sitio</h2>
+      <ul>
+        <li><strong>Cookies Técnicas Esenciales:</strong> Necesarias para el correcto funcionamiento del servidor FastAPI, gestión de sesiones seguras en el panel administrativo y prevención de ataques CSRF.</li>
+      </ul>
+
+      <h2 class="text-lg font-bold text-slate-900">Cómo Deshabilitar o Gestionar las Cookies</h2>
+      <p class="leading-relaxed">
+        Puedes restringir, bloquear o eliminar las cookies instaladas en tu equipo configurando las opciones de privacidad de tu navegador web:
+      </p>
+      <ul>
+        <li><strong>Google Chrome:</strong> Configuración &gt; Privacidad y seguridad &gt; Cookies de terceros.</li>
+        <li><strong>Mozilla Firefox:</strong> Opciones &gt; Privacidad y Seguridad &gt; Bloqueo de contenido.</li>
+        <li><strong>Brave / Edge:</strong> Configuración &gt; Permisos del sitio &gt; Cookies y datos del sitio.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}

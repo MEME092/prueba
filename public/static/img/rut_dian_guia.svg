@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="675" fill="url(#bg-grad)" />
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.07" stroke="#94a3b8" stroke-width="1">
+    <line x1="0" y1="75" x2="1200" y2="75" />
+    <line x1="0" y1="150" x2="1200" y2="150" />
+    <line x1="0" y1="225" x2="1200" y2="225" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="375" x2="1200" y2="375" />
+    <line x1="0" y1="450" x2="1200" y2="450" />
+    <line x1="0" y1="525" x2="1200" y2="525" />
+    <line x1="0" y1="600" x2="1200" y2="600" />
+    <line x1="150" y1="0" x2="150" y2="675" />
+    <line x1="300" y1="0" x2="300" y2="675" />
+    <line x1="450" y1="0" x2="450" y2="675" />
+    <line x1="600" y1="0" x2="600" y2="675" />
+    <line x1="750" y1="0" x2="750" y2="675" />
+    <line x1="900" y1="0" x2="900" y2="675" />
+    <line x1="1050" y1="0" x2="1050" y2="675" />
+  </g>
+
+  <!-- Browser Window Wrapper -->
+  <g transform="translate(80, 50)" filter="url(#shadow)">
+    <!-- Window Bar -->
+    <rect width="1040" height="575" rx="16" fill="#ffffff" />
+    <rect width="1040" height="48" rx="16" fill="#f8fafc" />
+    <path d="M0 32 h1040 v16 h-1040 z" fill="#f8fafc" />
+    <line x1="0" y1="48" x2="1040" y2="48" stroke="#e2e8f0" stroke-width="1" />
+
+    <!-- Window Controls -->
+    <circle cx="28" cy="24" r="6" fill="#ef4444" />
+    <circle cx="48" cy="24" r="6" fill="#f59e0b" />
+    <circle cx="68" cy="24" r="6" fill="#10b981" />
+
+    <!-- URL Bar -->
+    <rect x="110" y="10" width="820" height="28" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+    <text x="126" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#047857" font-weight="600">🔒 https://muisca.dian.gov.co/WebRut/inscripcion-persona-natural</text>
+
+    <!-- Document Header inside browser -->
+    <g transform="translate(40, 75)">
+      <!-- DIAN Institutional Bar -->
+      <rect width="960" height="55" rx="8" fill="#1e3a8a" />
+      <text x="24" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#ffffff" font-weight="800" letter-spacing="0.5">DIAN - Registro Único Tributario (RUT)</text>
+      <rect x="760" y="14" width="176" height="28" rx="6" fill="#059669" />
+      <text x="778" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff" font-weight="700">✓ CERTIFICADO DIGITAL</text>
+
+      <!-- Form Grid Details -->
+      <g transform="translate(0, 75)">
+        <!-- Box 1: Datos Personales -->
+        <rect width="960" height="90" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+        <rect width="960" height="28" rx="8" fill="#f1f5f9" />
+        <path d="M0 16 h960 v12 h-960 z" fill="#f1f5f9" />
+        <text x="16" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#334155" font-weight="700">HOJA 1 • CASILLAS 01-14: IDENTIFICACIÓN DEL CONTRIBUYENTE</text>
+        <text x="20" y="52" font-family="monospace" font-size="13" fill="#0f172a">NIT / C.C: [ANONIMIZADO POR PRIVACIDAD] - TIPO: 13 CÉDULA DE CIUDADANÍA</text>
+        <text x="20" y="74" font-family="monospace" font-size="13" fill="#0f172a">UBICACIÓN: 08 - ATLÁNTICO • 001 - BARRANQUILLA • DIRECCIÓN VERIFICADA</text>
+
+        <!-- Box 2: Actividades Económicas (CIIU) Destacada -->
+        <g transform="translate(0, 105)">
+          <rect width="960" height="115" rx="8" fill="#ecfdf5" stroke="#10b981" stroke-width="2" />
+          <rect width="960" height="28" rx="8" fill="#d1fae5" />
+          <path d="M0 16 h960 v12 h-960 z" fill="#d1fae5" />
+          <text x="16" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#065f46" font-weight="700">CASILLA 46 (ACTIVIDAD PRINCIPAL) Y CASILLA 53 (RESPONSABILIDADES)</text>
+          
+          <rect x="20" y="40" width="440" height="55" rx="6" fill="#ffffff" stroke="#a7f3d0" stroke-width="1" />
+          <text x="32" y="60" font-family="monospace" font-size="13" fill="#065f46" font-weight="700">CÓDIGO CIIU: 6201</text>
+          <text x="32" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#047857">Desarrollo de software y actividades informáticas</text>
+
+          <rect x="490" y="40" width="440" height="55" rx="6" fill="#ffffff" stroke="#a7f3d0" stroke-width="1" />
+          <text x="502" y="60" font-family="monospace" font-size="13" fill="#065f46" font-weight="700">RESPONSABILIDAD: 49</text>
+          <text x="502" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#047857">No responsable del Impuesto sobre las Ventas (IVA)</text>
+        </g>
+
+        <!-- Box 3: Verification Stamp & Watermark -->
+        <g transform="translate(0, 235)">
+          <rect width="960" height="85" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+          
+          <!-- Stamp Icon -->
+          <circle cx="50" cy="42" r="28" fill="#059669" opacity="0.1" />
+          <circle cx="50" cy="42" r="22" fill="none" stroke="#059669" stroke-width="2" stroke-dasharray="3 2" />
+          <text x="38" y="47" font-family="sans-serif" font-size="18" fill="#059669">✓</text>
+
+          <text x="95" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0f172a" font-weight="700">Trámite validado con firma digital válida y código QR de autenticidad</text>
+          <text x="95" y="55" font-family="monospace" font-size="11" fill="#64748b">HASH SHA-256: 7e8b91a24d8f... • Descarga oficial Formulario 001 formalizado</text>
+          <text x="95" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#2563eb" font-weight="600">Verificado en tiempo real por Andrés • Universidad de la Costa (CUC)</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Lab Watermark bar at bottom -->
+    <rect x="0" y="535" width="1040" height="40" rx="16" fill="#0f172a" />
+    <path d="M0 535 h1040 v20 h-1040 z" fill="#0f172a" />
+    <text x="24" y="560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">📸 <tspan fill="#38bdf8" font-weight="700">Captura de laboratorio propia</tspan> • Entorno DIAN MUISCA en Windows 11 • Sin imágenes de stock de terceros</text>
+    <text x="830" y="560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#10b981" font-weight="700">© Andrés • Barranquilla</text>
+  </g>
+</svg>
