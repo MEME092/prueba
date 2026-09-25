@@ -1,3 +1,0 @@
-# Archivo ads.txt para Tecnología para Gente Normal
-# Reemplaza 'pub-XXXXXXXXXXXXXXXX' con tu ID de editor tras la aprobación oficial en Google AdSense
-google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

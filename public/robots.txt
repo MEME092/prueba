@@ -11,4 +11,4 @@ User-agent: Mediapartners-Google
 Allow: /
 
 # Sitemap oficial
-Sitemap: https://tecnologiaparagentenormal.com/sitemap.xml
+Sitemap: https://tecnoteke.lol/sitemap.xml
